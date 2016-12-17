@@ -1,0 +1,75 @@
+*.py[cod]
+*~
+__pycache__
+!.gitkeep
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+.bundle
+dist
+build
+eggs
+heroku/*.whl
+parts
+sdist
+source.tar.gz
+develop-eggs
+.installed.cfg
+vendor
+
+# envdirs
+envs/*
+!envs/dev
+!envs/dist
+!envs/vagrant
+envs/*/*KEY
+envs/*/*TOKEN
+
+# Django
+reelport/media/*
+!reelport/media/.gitkeep
+reelport/static_root/*
+!reelport/static_root/.gitkeep
+
+# Logs
+*.log
+*.log.*
+pip-log.txt
+
+# Unit test / coverage reports
+.cache
+.coverage
+.tox
+htmlcov
+
+# Translations
+.transifexrc
+*.mo
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Node.js dependency directories
+node_modules
+
+# webpack
+reelport/webpack-stats-development.json
+reelport/static/bundles-development
+
+# Bower
+reelport/bower_components
+
+# unneeded compiled files
+reelport/static/css/app.css
+reelport/static/js/app.js
+
+# Sphinx
+docs/_build
+
+# Vagrant
+.vagrant
