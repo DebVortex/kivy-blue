@@ -29,7 +29,7 @@ extras_require = {
 
 
 setup(
-    name='kivy-blue',
+    name='kivy_blue',
     version='0.1.0',
     description='',
     long_description=read(BASE_DIR, 'README.md'),
